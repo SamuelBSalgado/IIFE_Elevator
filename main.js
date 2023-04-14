@@ -68,7 +68,7 @@ const Elevator = ((number_of_floors) => {
                 default:
                     motion = false;
                     // throw new Error("You're already on the top floor. You can't go higher.");
-                    return elevator_status.message = new Error("You're already on the top floor. You can't go higher.");// return elevator_status.message = "You're already on the top floor. You can't go higher.";
+                    return elevator_status.message = new Error("You're already on the top floor. You can't go higher.");
                     break;
             }
         } else{
